@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*" : ["./src/*"],
+      "@/cookies/*" : ["./src/cookies/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

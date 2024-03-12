@@ -1,0 +1,19 @@
+{
+  "name": "@vg/modules",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "terser": "^5.29.1",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "cookies.js": "github:madmurphy/cookies.js"
+  }
+}

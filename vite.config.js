@@ -1,0 +1,19 @@
+// vite.config.js
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
+      '@cookies': resolve(__dirname, './src/cookies/'),
+    },
+  },
+  build: {
+    lib: {
+      entry: resolve(__dirname, './src/index'),
+      name: 'Cookies',
+      fileName: 'vg-cookies',
+    },
+  },
+})
