@@ -1,4 +1,4 @@
-import { Cookies } from '@cookies/index';
+import { Cookies } from './cookies/index';
 import { module2Function } from './module2';
 
 
