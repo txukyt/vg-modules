@@ -1,7 +1,9 @@
-import { Cookies } from './cookies/index';
-import { module2Function } from './module2';
+import { Cookies } from '@/cookies';
+import { defineWebComponent } from '@/webcomponents';
 
+defineWebComponent('vg-cookies', Cookies);
 
-module2Function('vg-cookies', Cookies);
-
-export { Cookies, module2Function };
+export { 
+    Cookies, 
+    defineWebComponent 
+};

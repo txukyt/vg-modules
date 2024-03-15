@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@types/js-cookie": "^3.0.6",
-    "cookies.js": "github:madmurphy/cookies.js"
+    "cookies.js": "github:madmurphy/cookies.js",
+    "node-polyglot": "^2.5.0"
   }
 }

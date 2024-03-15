@@ -7,6 +7,7 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, './src'),
       '@cookies': resolve(__dirname, './src/cookies/'),
+      '@webcomponents': resolve(__dirname, './src/webcomponents/'),
     },
   },
   build: {
