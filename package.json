@@ -3,13 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "files": ["dist"],
-  "main": "./dist/vg-cookies.umd.cjs",
-  "module": "./dist/vg-cookies.js",
-  "exports": {
-    "import": "./dist/vg-cookies.js",
-    "require": "./dist/vg-cookies.umd.cjs"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
