@@ -1,9 +1,9 @@
-import { Cookies } from '@/cookies';
-import { defineWebComponent } from '@/webcomponents';
 
-defineWebComponent('vg-cookies', Cookies);
+import {version} from '../package.json';
+export {version};
 
-export { 
-    Cookies, 
-    defineWebComponent 
-};
+// Componentes
+export * from '@/components'
+
+// Servicios
+export * from '@/services'

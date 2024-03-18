@@ -1,7 +1,7 @@
 import Polyglot from 'node-polyglot';
 
 import { getLang } from '@/utils';
-import languages from '@/cookies/resources'
+import languages from '@cookies/resources'
 
 const language = getLang();
 

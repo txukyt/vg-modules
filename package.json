@@ -3,9 +3,17 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/vg-cookies.umd.cjs",
+  "module": "./dist/vg-cookies.js",
+  "exports": {
+    "import": "./dist/vg-cookies.js",
+    "require": "./dist/vg-cookies.umd.cjs"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:dev": "vite build --mode dev --outDir D:/DEV-WAS8/website/serverX/http/comun/libs/vg/cookies",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -13,8 +21,8 @@
     "vite": "^5.1.4"
   },
   "dependencies": {
-    "@types/js-cookie": "^3.0.6",
     "cookies.js": "github:madmurphy/cookies.js",
+    "js-cookie": "^3.0.5",
     "node-polyglot": "^2.5.0"
   }
 }

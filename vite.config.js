@@ -13,17 +13,17 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: {
         '@': resolve(__dirname, './src'),
-        '@cookies': resolve(__dirname, './src/cookies/'),
-        '@webcomponents': resolve(__dirname, './src/webcomponents/'),
+        '@cookies': resolve(__dirname, './src/components/cookies'),
+        '@services': resolve(__dirname, './src/services'),
       },
     },
     build: {
-      lib: {
-        entry: resolve(__dirname, './src/index'),
-        name: 'Cookies',
-        fileName: 'vg-cookies',
-        formats: [ 'es' ]
-      }
+        lib: {
+          entry: resolve(__dirname, './src/index'),
+          name: 'Modules',
+          fileName: 'vg-cookies',
+          formats: [ 'es', 'umd' ]
+        },
     }
   }
 })
